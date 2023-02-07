@@ -95,6 +95,16 @@ a.nav-link:hover {
 .img-item:hover img{
 	transform: scale(1.2);
 }
+.breadcrumb-item.active{
+	color:#0046FF ;
+}
+.breadcrumb a:hover{
+	color:#0046FF;
+}
+.breadcrumb li{
+	font-size: 18px !important;
+	line-height: 1.5 !important;
+}
 /*INTRO*/
 .intro-text{
 	font-size: 80px;
@@ -144,6 +154,9 @@ a.nav-link:hover {
 }
 .ex-card a{
 	color: #333;
+}
+.ex-card hr{
+	border-top: 1px solid rgba(255,255,255,.5);
 }
 /*WORK*/
 .work a:hover{
